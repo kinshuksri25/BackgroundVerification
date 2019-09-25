@@ -1,0 +1,45 @@
+body
+{
+	  background: #9053c7;
+  	  background: linear-gradient(to right, #6d55ca, #384fb6);
+  	  height : 100%;
+}
+.navbar-default{
+	background-color: rgba(254, 252, 251, 0.7);
+	font-family: 'Manjari', sans-serif;
+	font-weight: 700;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+	border: none;
+	color:black;
+}
+.jumbotron{
+	max-width: 70%;
+	max-height: 70%;
+	font-family: 'Manjari', sans-serif;
+	font-weight: 700;
+	margin-left: 3%;
+}
+.contact{
+	margin-left: 10%;
+	float:left;
+	background-color: white;
+	border:none;
+	font-family: 'Manjari', sans-serif;
+	font-weight: 400;
+	border-radius: 5px;
+	padding: 5% 5%;
+}
+.sidePara{
+	margin-top: 11%;
+	margin-left: 10%;
+	float:left;
+	font-family: 'Manjari', sans-serif;
+	font-weight: 400;
+	background-color: white;
+	border:none;
+	border-radius: 5px;
+	padding: 6% 6%;
+}

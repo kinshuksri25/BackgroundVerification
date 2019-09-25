@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>  
+<!DOCTYPE hibernate-configuration PUBLIC  
+          "-//Hibernate/Hibernate Configuration DTD 5.3//EN"  
+          "http://hibernate.sourceforge.net/hibernate-configuration-5.3.dtd">  
+  
+<hibernate-configuration>  
+  
+    <session-factory>  
+        <property name="hbm2ddl.auto">update</property>  
+        <property name="dialect">org.hibernate.dialect.Oracle10gDialect</property>  
+        <property name="connection.url">jdbc:oracle:thin:@WindowsPC:1521:xe</property>  
+        <property name="connection.username">System</property>  
+        <property name="connection.password">system</property>  
+        <property name="hibernate.show_sql">true</property>
+        <property name="hibernate.current_session_context_class">thread</property>
+        <property name="hibernate.connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
+
+    <mapping class="main.java.com.BGV.Model.EmployeeLogin" />
+    <mapping class="main.java.com.BGV.Model.ErrorMsgs"/>
+    <mapping class="main.java.com.BGV.Model.ViewName"/>
+    <mapping class="main.java.com.BGV.Model.Employee"/>
+    <mapping class="main.java.com.BGV.Model.MenuTab"/>
+    <mapping class="main.java.com.BGV.Model.Request"/>
+    <mapping class="main.java.com.BGV.Model.EmployeeDetails"/>
+    <mapping class="main.java.com.BGV.Model.BusinessVertical"/>
+    <mapping class="main.java.com.BGV.Model.AccountName"/>
+    </session-factory>  
+  
+</hibernate-configuration>  

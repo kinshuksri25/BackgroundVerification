@@ -1,0 +1,79 @@
+body
+{
+	  background: #9053c7;
+  	  background: linear-gradient(to right, #6d55ca, #384fb6);
+  	  height : 100%;
+}
+
+.formclass{
+	text-align: center;
+	font-family: 'Manjari', sans-serif;
+	font-weight: 400;
+	border : none;
+	border-radius: 10px;
+	padding-bottom:2%;
+	margin-top: 9%;
+	margin-bottom:0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	height: 450px;
+	min-width: 300px;
+	background-color: #ffffff;
+}
+
+.button{
+	margin-top: 4%;
+	padding-top: 4%;
+  	border-radius: 11px;
+  	font-weight: 700;
+}
+
+.btn-primary, .btn-primary:visited {
+    background-color: #57B846 !important;
+    border: none;
+    width: 150px;
+    color: #ffffff !important;
+}
+
+.btn-primary:hover, .btn-primary:active
+{
+	transition: background-color .3s linear;	
+	background-color: #36702d !important;
+	border: none;
+	width: 150px;
+    color: #ffffff !important;
+}
+.forms{
+	margin: 9% auto;
+}
+
+#message{
+	font-size: 30px !important;
+	text-transform: uppercase;
+	color: #090806;
+	text-align: center;
+	margin-top: 2%;
+	font-family: 'Manjari', sans-serif;
+	font-weight: 700;
+}
+
+.headerclass{
+	padding-top: 20px;
+	color:#090806;
+	font-weight: 700;
+}
+
+#employeeID, #password{
+	margin: auto;
+	padding-top: 7.5px;
+	min-height:40px;
+	border-radius: 12px;
+	max-width: 90%;
+	background-color: #DCDCDC;
+	color: #787878;
+}
+
+#employeeID:focus , #password:focus {
+   box-shadow: 0 0 7px #0051FF;
+}

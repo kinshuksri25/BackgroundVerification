@@ -1,0 +1,100 @@
+body
+{
+	  background: #9053c7;
+  	  background: linear-gradient(to right, #6d55ca, #384fb6);
+  	  height : 100%;
+}
+.navbar-default{
+	background-color: rgba(254, 252, 251, 0.7);
+	font-family: 'Manjari', sans-serif;
+	font-weight: 700;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+	border: none;
+	color:black;
+}
+
+.profileContainer
+{
+	max-width: 50%;
+	background-color: white;
+	border-radius: 10px;
+	border:none;
+	margin: 20px auto;
+	padding:10px;
+}
+
+#message{
+	margin-top: 2%;
+	font-size: 30px !important;
+	font-family: 'Manjari', sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #090806;
+	text-align: center;
+}
+.button{
+	margin-left: 32%;
+	transition: background-color .3s linear;
+	border: none;
+  	font-weight: 700;
+  	border-radius: 10px;
+  	font-family: 'Manjari', sans-serif;
+  	padding-top: 3%;
+  	max-width: 200px
+}
+
+.heading
+{
+	text-align: center;
+	font-family: 'Manjari', sans-serif;
+	font-weight: 700;
+}
+
+.form-control{
+	min-height:40px;
+	border-radius: 12px;
+	max-width: 90%;
+	background-color: #DCDCDC;
+	color: #787878;
+	margin: auto;
+	font-family: 'Manjari', sans-serif;
+	font-weight: 400;
+}
+
+.form-control:focus{
+ 	box-shadow: 0 0 7px #0051FF;
+}
+
+.forms
+{
+	background-color: white;
+	border-radius: 10px;
+	border:none;
+	margin: 20px auto;
+	padding:10px;
+}
+.headingPassword{
+	margin-top: 0;
+	text-align: center;
+	font-family: 'Manjari', sans-serif;
+	font-weight: 700;
+}
+.label{
+	color:black;
+	margin-left:5%;
+	font-family: 'Manjari', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+}
+#passwordForm
+{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+#detailsForm
+{
+	margin-bottom: 0;
+}
